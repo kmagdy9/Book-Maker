@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>CRUD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+
+  </head>
+  <body >
+    
+    <main class=" mx-auto w-75" >
+
+      <section class="header">
+        <h1 class="pt-5 text-center position-relative">Bookmarker</h1>
+        <!-- <hr> -->
+      </section>
+
+      <section class="pt-3 pb-4 position-relative data ">
+        <h2 class="text-center"> <i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark"></i></h2>
+
+        <div>
+          <label for="siteName" class="pt-5"><i class="fa-solid fa-book-bookmark"></i> Site Name</label>
+
+          <input type="text" placeholder="Bookmark Name" id="siteName" class="form-control mt-2" >
+        </div>
+
+        <div>
+          <label for="siteURL" class="pt-5"><i class="fa-solid fa-link"></i> Site URL</label>
+
+          <input type="text" placeholder="Website URL" id="siteURL" class="form-control mt-2" >
+        </div>
+
+        <div class="button ">
+          <button onclick="addSite()" class="mt-4 btn submit">Submit</button>
+        </div>
+        
+
+        
+      </section>
+
+      <section class="mt-4">
+
+        <table class="table">
+
+          <thead>
+            <tr>
+              <th>Index</th>
+              <th>Website Name</th>
+              <th>Visit</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+
+          <tbody id="tableData">
+
+            
+          </tbody>
+        </table>
+      </section>
+
+
+      
+    </main>
+    
+     <!-- <script src="./js/bootstrap.bundle.min.js"></script>  -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

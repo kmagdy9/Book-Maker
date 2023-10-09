@@ -1,0 +1,55 @@
+*{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+body{
+    background-color: #F7ECDE;
+}
+/*************************Header*****************************/
+.header h1{
+    font-family: 'Pacifico', cursive;
+   
+    padding-bottom: 50px;
+}
+.header{
+
+    border-bottom: 2px dotted ;
+
+}
+
+.data h2{
+    background-image: linear-gradient(to right,#3ca55c, #daca1a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inputs{
+
+    border-bottom: 2px dotted ;
+
+}
+
+
+.submit{
+
+    background-color: #D1512D !important;
+    color: white !important;
+    width: 25%;
+    transition: 0.5s;
+    
+}
+.button{
+    padding-left: 45%;
+}
+
+.data{
+
+    border-bottom: 2px dotted ;
+}
+
+
+button:hover{
+    background-color: black;
+}
+
